@@ -43,7 +43,7 @@ body.show-toolbar-icons #main {
 	color: #999 !important;
 }
 
-/*===== Toolbar =====*/
+/*/*===== Toolbar =====*/
 #-webkit-web-inspector #toolbar {
 	background: #fff !important;
 	border-top: 5px solid silver !important;
@@ -145,4 +145,4 @@ body.show-toolbar-icons #main {
 	left:auto !important;
 	right:0 !important;
 }
-/*===== END Toolbar =====*/
+/*===== END Toolbar =====*/*/
