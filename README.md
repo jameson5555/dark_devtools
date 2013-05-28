@@ -8,8 +8,17 @@ On top of that theme, I just cleaned up a few things, such as making comments gr
 To install
 -----------
 
-There's a custom stylesheet for Chrome that is blank by default. All you need to do is take my Custom.css stylesheet above and either paste into or replace entirely your Custom.css file. Here's where to find it, depending on your OS:
+There's a custom stylesheet for Chrome that is blank by default. All you need to do is take my Custom.css stylesheet above and either paste into or replace entirely your Custom.css file. Here's where to find it, depending on your OS: 
 
 - Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
 - PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css
 - Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
+
+Screenshots
+-----------
+
+![Elements](screenshot1.png)
+
+![Resources](screenshot2.png)
+
+![Network](screenshot1.png)
