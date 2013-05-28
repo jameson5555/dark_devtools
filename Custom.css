@@ -1,0 +1,148 @@
+/* Reverse the colors */
+#-webkit-web-inspector {
+	-webkit-filter: invert(1);
+}
+#-webkit-web-inspector .toolbar-icon,
+#-webkit-web-inspector .swatch,
+#-webkit-web-inspector .icon,
+#-webkit-web-inspector input[type="checkbox"],
+#-webkit-web-inspector input[type="radio"],
+#-webkit-web-inspector .control-profiling,
+#-webkit-web-inspector .resource-image-view,
+#-webkit-web-inspector .console-error-level .console-message-text,
+#-webkit-web-inspector .console-error-level .section .header .title,
+#-webkit-web-inspector .network-close-button {
+	-webkit-filter: invert(1);
+}
+#-webkit-web-inspector .source-code {
+	-webkit-filter: brightness(0.5);
+}
+
+/* Fine tuning and turning comments gray */
+#-webkit-web-inspector .script-view,
+#-webkit-web-inspector .text-editor-contents,
+#-webkit-web-inspector .pane.expanded,
+#-webkit-web-inspector #elements-content,
+#-webkit-web-inspector .resource-view.json,
+table .webkit-line-content {
+	font-size: 12px !important;
+}
+body.show-toolbar-icons #main {
+	top: 50px !important;
+}
+.crumbs .crumb.selected.end, .crumbs .crumb.selected.end:hover{
+	background-image: none !important;
+}
+.outline-disclosure ol:focus li.selected *{
+	color: auto;
+}
+.webkit-html-comment,
+.webkit-css-comment,
+.webkit-javascript-comment,
+.webkit-php-comment{
+	color: #999 !important;
+}
+
+/*===== Toolbar =====*/
+#-webkit-web-inspector #toolbar {
+	background: #fff !important;
+	border-top: 5px solid silver !important;
+	border-bottom: 5px solid silver !important;
+	padding-top: 0 !important;
+	height: 50px !important;
+}
+#-webkit-web-inspector #toolbar .toolbar-label {
+	color: #000 !important;
+	display:block !important;
+}
+#-webkit-web-inspector #toolbar .toggled-on .toolbar-label {
+	color: #000 !important;
+}
+#-webkit-web-inspector #toolbar button.toolbar-item {
+	padding: 10px 15px !important;
+}
+#-webkit-web-inspector #toolbar button.toolbar-item.toggleable.toggled-on {
+	background: silver !important;
+	padding: 10px 13px !important;
+}
+#-webkit-web-inspector button.toolbar-item.close-left {
+	margin-top: 1px !important;
+}
+#-webkit-web-inspector #toolbar-controls {
+	margin-top: -4px !important;
+}
+#-webkit-web-inspector #toolbar-search-item {
+	margin-top: 12px !important;
+}
+#-webkit-web-inspector button.toolbar-item {
+	display:inline !important;
+	height:45px !important;
+	position:relative !important;
+	width:75px !important;
+	-webkit-perspective:250 !important;
+}
+#-webkit-web-inspector button.toolbar-item:hover{
+	cursor: pointer;
+}
+#-webkit-web-inspector button.toolbar-item .toolbar-icon {
+	height:32px !important;
+	position:relative !important;
+	width:32px !important;
+	z-index:1 !important;
+	display: block !important;
+	transition: opacity .3s ease-out;
+}
+#-webkit-web-inspector button.toolbar-item .toolbar-label {
+	position:absolute !important;
+	top:15px !important;
+	z-index:0 !important;
+	transition: opacity .1s ease-in;
+}
+#-webkit-web-inspector button.toolbar-item:hover .toolbar-icon,
+#-webkit-web-inspector button.toolbar-item .toolbar-label {
+	opacity: 0;
+}
+#-webkit-web-inspector button.toolbar-item .toolbar-icon,
+#-webkit-web-inspector button.toolbar-item:hover .toolbar-label {
+	opacity: 1;
+}
+
+#-webkit-web-inspector button.toolbar-item:active .toolbar-icon {
+	background-position-y:0 !important;
+}
+#-webkit-web-inspector #toolbar button.toolbar-item.toggleable,
+#-webkit-web-inspector #toolbar button.toolbar-item.toggleable.toggled-on {
+	padding-bottom:7px !important;
+	padding-top:7px !important;
+}
+/* Make the toolbar icons look uniform across states. */
+#-webkit-web-inspector .toolbar-icon {
+	/* For some really weird reason, I need to specify the full url here :/ */
+	background-image:url(chrome-devtools://devtools/Images/toolbarIcons.png) !important;
+}
+#-webkit-web-inspector .toolbar-item.resources .toolbar-icon {
+	background-position-x:-32px !important;
+}
+#-webkit-web-inspector .toolbar-item.network .toolbar-icon {
+	background-position-x:-64px !important;
+}
+#-webkit-web-inspector .toolbar-item.scripts .toolbar-icon {
+	background-position-x:-95px !important;
+}
+#-webkit-web-inspector .toolbar-item.timeline .toolbar-icon {
+	background-position-x:-128px !important;
+}
+#-webkit-web-inspector .toolbar-item.profiles .toolbar-icon {
+	background-position-x:-160px !important;
+}
+#-webkit-web-inspector .toolbar-item.audits .toolbar-icon {
+	background-position-x:-192px !important;
+}
+#-webkit-web-inspector .toolbar-item.console .toolbar-icon {
+	background-position-x:-224px !important;
+}
+#-webkit-web-inspector #toolbar-dropdown {
+	left:auto !important;
+	right:0 !important;
+}
+/*===== END Toolbar =====*/
