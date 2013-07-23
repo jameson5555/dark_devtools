@@ -14,6 +14,9 @@ There's a custom stylesheet for Chrome that is blank by default. All you need to
 - PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css
 - Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
 
+Note: In Chrome's general settings, make sure "Show toolbar icons" is enabled
+
+
 Screenshots
 -----------
 
