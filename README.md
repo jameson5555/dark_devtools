@@ -10,11 +10,9 @@ To install
 
 There's a custom stylesheet for Chrome that is blank by default. All you need to do is take my Custom.css stylesheet above and either paste into or replace entirely your Custom.css file. Here's where to find it, depending on your OS: 
 
-- Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
+- Mac: ~/Library/Application Support/Google/Chrome/Default/User\ StyleSheets/Custom.css
 - PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css
 - Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
-
-Note: In Chrome's general settings, make sure "Show toolbar icons" is enabled
 
 
 Screenshots
